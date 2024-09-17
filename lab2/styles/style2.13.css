@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: bisque;
+    height: 85px;
+}
+
+ul {
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+img {
+    float: right;
+    width: 50%;
+}
+
+.text2 {
+    clear: right;
+}
+
+.main-conteiner {
+    position: relative;
+    background-color: aqua;
+    margin: 5px;
+    border: solid, 1px, green;
+}
+
+.left-content {
+    width: 25%;
+    position: absolute;
+    vertical-align: top;
+}
+
+.right-content {
+    margin-left: 25%;
+    width: 75%;
+    background-color: darkgrey;
+}

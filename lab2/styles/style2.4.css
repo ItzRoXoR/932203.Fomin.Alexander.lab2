@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    background-color: blue;
+    color: white;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+    div {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: inherit;
+    }
+}

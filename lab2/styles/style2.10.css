@@ -1,0 +1,12 @@
+div {
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 20px;
+    float: left;
+}
+
+footer {
+    background-color: bisque;
+    clear: left;
+}

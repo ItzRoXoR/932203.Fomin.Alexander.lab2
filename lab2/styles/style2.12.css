@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+nav {
+    display: inline-block;
+    background-color: bisque;
+    width: 476px;
+    vertical-align: top;
+}
+
+ul {
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+.main-conteiner {
+    border: solid, 1px, green;
+    background-color: aqua;
+    position: relative;
+    width: 100%;
+}
+
+.text-conteiner {
+    display: inline-block;
+    background-color: darkgray;
+    width: 1415px;
+}
+
+@media (max-width: 1919px)
+{
+    nav {
+        width: 25%;
+    }
+
+    .text-conteiner {
+        width: 75%;
+    }
+}

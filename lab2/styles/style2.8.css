@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: limegreen;
+    height: 70px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+nav {
+    background-color: bisque;
+    height: 85px;
+}
+
+ul {
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.bottom-part
+{
+    background-color: aqua;
+    height: calc(100% - 85px);
+}
+
+.left-conteiner {
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.text-conteiner {
+    position: relative;
+    padding-left: 200px;
+    margin: 10px;
+    background-color: darkgray;
+}

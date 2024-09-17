@@ -1,0 +1,9 @@
+img {
+    float: right;
+}
+
+div {
+    border: solid, 1px, green;
+    background-color: aqua;
+    height: 265px;
+}

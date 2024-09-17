@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.main-conteiner {
+    position: relative;
+    background-color: aqua;
+    margin: 5px;
+    border: solid, 1px, green;
+}
+
+.left-content {
+    float: left;
+    width: 25%;
+    height: 85px;
+    background-color: bisque;
+}
+
+.right-content {
+    display: inline-block;
+    width: 75%;
+    background-color: darkgrey;
+}
+
+@media (max-width: 1440px)
+{
+    .left-content {
+        width: 100%;
+        height: inherit;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    ul {
+        padding-top: 0;
+    }
+
+    .right-content { 
+        width: 100%;
+    }
+}
